@@ -1,0 +1,35 @@
+
+******************** Linux System Program Example **********************************
+*                                                                                   *
+*               Marvellous Infosystem Institute, pune			            *
+*               @email	: yuvraj.takey@gmail.com        	                    *
+*               @author : Yuvraj Takey								    *
+*                                                                                   *
+*************************************************************************************
+
+================
+description
+================
+
+1) This program accept (any) name from user and display on screen.
+2) Required name will be taken from command line
+
+================
+about the code
+================
+
+	input	:	any "word"
+	output	:	"word"  
+ 			
+=============
+How to run
+=============
+
+	make	:	compile the code and generates executable file as "myexe"
+	make run:	run the executable with command line argument
+			for this you have to pass parameter as: 
+			
+			$ make run p="parameter_value"
+	
+____________________________________________________________________________________________
+

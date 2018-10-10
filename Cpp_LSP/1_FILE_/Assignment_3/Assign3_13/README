@@ -1,0 +1,41 @@
+
+******************** Linux System Program Example **********************************
+*                                                                                   *
+*               Marvellous Infosystem Institute, pune			            *
+*               @email	: yuvraj.takey@gmail.com                            *
+*               @author : Yuvraj Takey								    *
+*                                                                                   *
+*************************************************************************************
+
+================
+description
+================
+
+1) This program accept directory name and file name from user and create given name of file
+in that given directory.
+2) Required directory name and file name will be taken from command line
+
+================
+about the code
+================
+
+	input	:	directory name, file name
+	output	:	result - execution status
+ 			
+=============
+How to run
+=============
+
+	make	:	compile the code and generates executable file as "myexe"
+	make run:	run the executable with command line argument
+			for this you have to pass parameter as: 
+			
+			$ make run p="parameter_value"
+	
+=============
+NOTE
+=============
+
+	1)If the given file is unable to open, it will display the appropriate reason.
+_______________________________________________________________________________________________
+	

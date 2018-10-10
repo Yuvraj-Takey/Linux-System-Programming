@@ -1,0 +1,43 @@
+
+******************** Linux System Program Example **********************************
+*                                                                                   *
+*               Marvellous Infosystem Institute, pune			            *
+*               @email	: yuvraj.takey@gmail.com                            *
+*               @author : Yuvraj Takey								    *
+*                                                                                   *
+*************************************************************************************
+
+================
+description
+================
+
+1) This program accept file name and any string from user and open that file in default mode(Write).
+2) after open gets successful it will write the given "word" into that file
+3) Required filename and "word" will be taken from command line
+
+================
+about the code
+================
+
+	input	:	file_name, word
+	output	:	result - file descripter
+ 			
+=============
+How to run
+=============
+
+	make	:	compile the code and generates executable file as "myexe"
+	make run:	run the executable with command line argument
+			for this you have to pass parameter as: 
+			
+			$ make run p1="parameter_value1" p2="parameter_value2"
+	
+=============
+NOTE
+=============
+
+	1)If the given file is unable to open, it will display the appropriate reason.
+	2)If given file is not present in the working directory, it creates new file with the given name.
+	and write the data into that file.
+_______________________________________________________________________________________________________
+

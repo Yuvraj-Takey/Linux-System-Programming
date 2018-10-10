@@ -1,0 +1,2 @@
+Demo of Input Ouptput rediction
+Addition of 100, 200 and 301 is 601

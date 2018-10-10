@@ -1,0 +1,44 @@
+
+******************** Linux System Program Example **********************************
+*                                                                                   *
+*               Marvellous Infosystem Institute, pune			            *
+*               @email	: yuvraj.takey@gmail.com                            *
+*               @author : Yuvraj Takey								    *
+*                                                                                   *
+*************************************************************************************
+
+================
+description
+================
+
+1) This program accept file name and open that file.
+2) after open gets successful, accept any kind of data from user and store this data
+	in term of structure format.
+3) Required filename will be taken from command line
+
+================
+about the code
+================
+
+	input	:	file_name
+	output	:	result - status of execution.
+ 			
+=============
+How to run
+=============
+
+	make	:	compile the code and generates executable file as "myexe"
+	make run:	run the executable with command line argument
+			for this you have to pass parameter as: 
+			
+			$ make run p="parameter_value"
+	
+=============
+NOTE
+=============
+
+	1)If the given file is unable to open, it will display the appropriate reason.
+	2)If given file is not present in the working directory, it creates new file with the given name.
+	and write the data into that file.
+_______________________________________________________________________________________________________
+

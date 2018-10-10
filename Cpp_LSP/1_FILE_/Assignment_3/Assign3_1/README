@@ -1,0 +1,40 @@
+
+******************** Linux System Program Example **********************************
+*                                                                                   *
+*               Marvellous Infosystem Institute, pune			            		*
+*               @email	: yuvraj.takey@gmail.com                            *
+*               @author : Yuvraj Takey								   								*
+*                                                                                   *
+*************************************************************************************
+
+================
+description
+================
+
+1) This program accept Input file and output file from user and demonstrate I/O redirection
+2) Required file names will be taken from command line
+
+================
+about the code
+================
+
+	input	:	Input_File_Name, Output_File_Name
+	output	:	result - status of execution
+ 			
+=============
+How to run
+=============
+	
+	
+	1) Create file as input.txt in working directoy and write any 3 integral numbers in file
+	2) Create one empty file as output.txt in same directory
+	3) compile the program and pass two file names while execute myexe.
+	5) After execution, check output.txt file
+
+
+	make	:	compile the code and generates executable file as "myexe"
+	make run:	run the executable with command line argument
+			for this you have to pass parameter as: 
+			
+			$ make run p1="parameter_value1" p2="parameter_value2"
+

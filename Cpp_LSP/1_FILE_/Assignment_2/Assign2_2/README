@@ -1,0 +1,46 @@
+
+******************** Linux System Program Example **********************************
+*                                                                                   *
+*               Marvellous Infosystem Institute, pune			            *
+*               @email	: yuvraj.takey@gmail.com                            *
+*               @author : Yuvraj Takey								    *
+*                                                                                   *
+*************************************************************************************
+
+================
+description
+================
+
+1) This program accept file name and permission from user and check whether file has given permission or not.
+2) Required filename will be taken from command line
+
+================
+about the code
+================
+
+	input	:	file name, file_permission	[for more, see NOTES]
+	output	:	result for permission
+ 			
+=============
+How to run
+=============
+
+	make	:	compile the code and generates executable file as "myexe"
+	make run:	run the executable with command line argument
+			for this you have to pass parameter as: 
+			
+			$ make run p1="parameter_value1" p2="parameter_value2"
+	
+=============
+NOTES
+=============
+
+	1) file_permission : it could be-
+				   i)	read
+				   ii)	write
+				   iii)	execute
+
+	2)If the given file is unable to open, it will display the appropriate reason.
+	
+_______________________________________________________________________________________________
+	

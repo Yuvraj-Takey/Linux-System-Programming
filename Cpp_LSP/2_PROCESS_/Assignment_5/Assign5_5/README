@@ -1,0 +1,34 @@
+	
+******************** Linux System Program Example *******************************
+*                                                                               *
+*    Marvellous Infosystem Institute, pune					*
+*               @@email	: yuvraj.takey@gmail.com                            	*
+*               @auther : Yuvraj Takey						*							
+*										*
+*                                                                               *
+*********************************************************************************
+
+================
+description
+================
+
+This program is used to display Environment of our running process.
+
+================
+about the code
+================
+
+	input		:	none
+	output		:	Environment of a process.
+ 			
+=============
+How to run
+=============
+
+	make		:	compile the code and generates executable file as "myexe"
+	make run	:	run the executable with command line argument
+					for this you don't have to pass any parameter, because input is none.
+			
+____________________________________________________________________________________________
+	
+

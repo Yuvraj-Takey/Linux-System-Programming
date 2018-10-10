@@ -1,0 +1,41 @@
+
+******************** Linux System Program Exampl **********************************
+*                                                                                   *
+*               Marvellous Infosystem Institute, pune			            *
+*               @email	: yuvraj.takey@gmail.com                            *
+*               @author : Yuvraj Takey								    *
+*                                                                                   *
+*************************************************************************************
+
+================
+description
+================
+
+1) This program accept file name from user and open that file in default mode(Read).
+2) Required filename will be taken from command line
+
+================
+about the code
+================
+
+	input	:	file name
+	output	:	result - file descripter
+ 			
+=============
+How to run
+=============
+
+	make	:	compile the code and generates executable file as "myexe"
+	make run:	run the executable with command line argument
+			for this you have to pass parameter as: 
+			
+			$ make run p="parameter_value"
+	
+=============
+NOTE
+=============
+
+	1)If the given file is unable to open, it will display the appropriate reason/ErrorCode.
+	
+_________________________________________________________________________________________________________________
+	

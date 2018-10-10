@@ -1,0 +1,43 @@
+
+******************** Linux System Program Example **********************************
+*                                                                                   *
+*               Marvellous Infosystem Institute, pune			            *
+*               @email	: yuvraj.takey@gmail.com                            *
+*               @author : Yuvraj Takey								    *
+*                                                                                   *
+*************************************************************************************
+
+================
+description
+================
+
+1) This program accept two directory names from user and move all files from source 
+	directory to destination directory.
+2) Required directory names will be taken from command line
+
+================
+about the code
+================
+
+	input	:	directory_Name1(source), directory_Name2(destination)
+	output	:	result - Status of execution
+ 			
+=============
+How to run
+=============
+
+	make	:	compile the code and generates executable file as "myexe"
+	make run:	run the executable with command line argument
+			for this you have to pass parameter as: 
+			
+			$ make run p1="parameter_value1" p2="parameter_value2"
+	
+=============
+NOTE
+=============
+
+	1)If the given directory_file is unable to open, it will display the appropriate reason.
+	2)This program implements "$ mv" command
+		
+_______________________________________________________________________________________________
+	

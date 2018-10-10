@@ -1,0 +1,43 @@
+
+******************** Linux System Program Example **********************************
+*                                                                                   *
+*               Marvellous Infosystem Institute, pune			            		*
+*               @email	: yuvraj.takey@gmail.com                            *
+*               @author : Yuvraj Takey								    							 *
+*                                                                                   *
+*************************************************************************************
+
+================
+description
+================
+
+1) This program accept directory name from user, from that directory it takes information 
+	of all regular file and write it into another file, (named as "output_Info") and then
+	read the whole contents from that output file.
+2) Required directory_file name will be taken from command line
+
+================
+about the code
+================
+
+	input	:	directory name
+	output	:	result - "output_Info" (regular) file.
+ 			
+=============
+How to run
+=============
+
+	make	:	compile the code and generates executable file as "myexe"
+	make run:	run the executable with command line argument
+			for this you have to pass parameter as: 
+			
+			$ make run p="parameter_value" 
+	
+=============
+NOTE
+=============
+
+	1)If the given directory_file is unable to open, it will display the appropriate reason.
+	2)"output_Info" file gets created by programatically.
+_______________________________________________________________________________________________
+	

@@ -1,0 +1,45 @@
+
+******************** Linux System Program Example **********************************
+*                                                                                   *
+*               Marvellous Infosystem Institute, pune			            *
+*               @email	: yuvraj.takey@gmail.com                            *
+*               @author : Yuvraj Takey								    *
+*                                                                                   *
+*************************************************************************************
+
+================
+description
+================
+
+1) This program accept directory name from user and performs the following operation on each file
+	i)	create hole in file if size is less than 1kb
+	ii)	if file is greater than 1kb then truncate the remaining data from that file.
+
+2) Required directory name will be taken from command line
+
+================
+about the code
+================
+
+	input	:	directory name
+	output	:	result - execution status
+ 			
+=============
+How to run
+=============
+
+	make	:	compile the code and generates executable file as "myexe"
+	make run:	run the executable with command line argument
+			for this you have to pass parameter as: 
+			
+			$ make run p="parameter_value"
+	
+=============
+NOTE
+=============
+
+	1) If the given file is unable to open, it will display the appropriate reason.
+	2) After execution of this program, the size of each files from given directory will become 1 KB
+	
+_______________________________________________________________________________________________
+	

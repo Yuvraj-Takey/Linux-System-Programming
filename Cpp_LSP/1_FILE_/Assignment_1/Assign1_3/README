@@ -1,0 +1,33 @@
+
+******************** Linux System Program Example **********************************
+*                                                                                   *
+*               Marvellous Infosystem Institute, pune			            *
+*               @email	: yuvraj.takey@gmail.com                            *
+*               @author : Yuvraj Takey								    *
+*                                                                                   *
+*************************************************************************************
+
+================
+description
+================
+
+1) This program is used to display HELLO_WORLD on screen
+
+================
+about the code
+================
+
+	input	:	none
+	output	:	result : string
+ 			
+=============
+How to run
+=============
+
+	make	:	compile the code and generates executable file as "myexe"
+	make run:	run the executable with command line argument
+			for this you havn't pass any parameter 
+			
+________________________________________________________________________________________
+			
+

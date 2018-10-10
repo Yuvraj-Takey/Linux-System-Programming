@@ -1,0 +1,47 @@
+
+******************** Linux System Program Example **********************************
+*                                                                                   *
+*               Marvellous Infosystem Institute, pune			            *
+*               @email	: yuvraj.takey@gmail.com                            *
+*               @author : Yuvraj Takey								    *
+*                                                                                   *
+*************************************************************************************
+
+================
+description
+================
+
+1) This program accept two file names from user and copy the contents of an existing
+	file into newly created file.
+2) The second file will generate by program itself
+3) Required filenames will be taken from command line
+
+================
+about the code
+================
+
+	input	:	file_name1, file_name2
+	output	:	result - all contents from first file will copy into second file.
+ 			
+=============
+How to run
+=============
+
+	make	:	compile the code and generates executable file as "myexe"
+	make run:	run the executable with command line argument
+			for this you have to pass parameter as: 
+			
+			$ make run p1="parameter_value1" p2="parameter_value2"
+	
+=============
+NOTE
+=============
+
+	1) First file should be contains valid data.
+	2) If the given file is unable to open/create, it will display the appropriate reason.
+	3) This program implements "$ cp <file_name1> <file_name2>" command
+	4) If second file is not present in working diretory, it will create by program itself
+	
+___________________________________________________________________________________________________________
+
+	

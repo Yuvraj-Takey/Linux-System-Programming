@@ -1,0 +1,41 @@
+
+******************** Linux System Program Example **********************************
+*                                                                                   *
+*               Marvellous Infosystem Institute, pune			            		*
+*               @email	: yuvraj.takey@gmail.com                            *
+*               @author : Yuvraj Takey								   								*
+*                                                                                   *
+*************************************************************************************
+
+================
+description
+================
+
+1) This program accept two file names from user and check whether contents 
+	of that two files are equal are not
+2) Required file names will be taken from command line
+
+================
+about the code
+================
+
+	input	:	file_name1, file_name2
+	output	:	result - equality status
+ 			
+=============
+How to run
+=============
+
+	make	:	compile the code and generates executable file as "myexe"
+	make run:	run the executable with command line argument
+			for this you have to pass parameter as: 
+			
+			$ make run p1="parameter_value1" p2="parameter_value2"
+	
+=============
+NOTE
+=============
+
+	1)If the given file is unable to open, it will display the appropriate reason.
+________________________________________________________________________________________
+	

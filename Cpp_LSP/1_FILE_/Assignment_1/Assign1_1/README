@@ -1,0 +1,36 @@
+
+******************** Linux System Program Example **********************************
+*                                                                                   *
+*               Marvellous Infosystem Institute, pune			            *
+*               @email	: yuvraj.takey@gmail.com                            *
+*               @author : Yuvraj Takey								    *
+*                                                                                   *
+*************************************************************************************
+
+================
+description
+================
+
+1)This program performs addition of 2 number and provide output to the terminal.
+2)Required numbers for addition will be taken from command line
+
+================
+about the code
+================
+
+	input	:	Two numbers for addition
+	output	:	addition of that two given number
+ 			
+=============
+How to run
+=============
+
+	make	:	compile the code and generates executable file as "myexe"
+	make run:	run the executable with command line argument
+			for this you have to pass parameter as: 
+			
+			$ make run p1="parameter_value1" p2="parameter_value2" 
+			
+____________________________________________________________________________________________
+	
+

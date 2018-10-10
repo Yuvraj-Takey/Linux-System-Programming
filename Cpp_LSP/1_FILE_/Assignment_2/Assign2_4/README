@@ -1,0 +1,42 @@
+
+******************** Linux System Program Example **********************************
+*                                                                                   *
+*               Marvellous Infosystem Institute, pune			            *
+*               @email	: yuvraj.takey@gmail.com                            *
+*               @author : Yuvraj Takey								    *
+*                                                                                   *
+*************************************************************************************
+
+================
+description
+================
+
+1) This program accept file name and number of bytes from user.
+2) if open gets successful then it will show(read) requested number of bytes from that file.
+3) Required filename will be taken from command line
+
+================
+about the code
+================
+
+	input	:	file name, number_of_bytes to read
+	output	:	result - requested bytes(data)
+ 			
+=============
+How to run
+=============
+
+	make	:	compile the code and generates executable file as "myexe"
+	make run:	run the executable with command line argument
+			for this you have to pass parameter as: 
+			
+			$ make run p1="parameter_value1" p2="parameter_value2"
+	
+=============
+NOTE
+=============
+
+	1)If the given file is unable to open, it will display the appropriate reason.
+________________________________________________________________________________________________________
+
+	

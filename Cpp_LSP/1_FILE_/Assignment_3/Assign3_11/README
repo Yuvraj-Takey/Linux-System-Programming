@@ -1,0 +1,42 @@
+
+******************** Linux System Program Example **********************************
+*                                                                                   *
+*               Marvellous Infosystem Institute, pune			            *
+*               @email	: yuvraj.takey@gmail.com                            *
+*               @author : Yuvraj Takey								    *
+*                                                                                   *
+*************************************************************************************
+
+================
+description
+================
+
+1) This program accept file name from user, which contains data of all files
+ (file which created by previous program). We have to print all file names whose size
+ is greater that 10 bytes.
+2) Required file name will be taken from command line
+
+================
+about the code
+================
+
+	input	:	file name [example: "allCombine" (regular) file.]
+	output	:	result - file name having size greater than 10 byte.
+ 			
+=============
+How to run
+=============
+
+	make	:	compile the code and generates executable file as "myexe"
+	make run:	run the executable with command line argument
+			for this you have to pass parameter as: 
+			
+			$ make run p="parameter_value" 
+	
+=============
+NOTE
+=============
+
+	1)If the given file is unable to open, it will display the appropriate reason.
+_______________________________________________________________________________________________
+	
